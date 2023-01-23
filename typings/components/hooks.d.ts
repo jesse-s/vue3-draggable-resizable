@@ -1,6 +1,6 @@
 import { Ref } from 'vue';
 import { ContainerProvider, ResizingHandle } from './types';
-declare type HandleEvent = MouseEvent | TouchEvent;
+type HandleEvent = MouseEvent | TouchEvent;
 export declare function useState<T>(initialState: T): [Ref<T>, (value: T) => T];
 export declare function initState(props: any, emit: any): {
     id: string;
