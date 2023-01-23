@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "strict": true,
+    "strict": false,
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
@@ -31,7 +31,10 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx", "dist/index.ts", "dist/vue3-draggable-resizable.d.ts", "vue3-draggable-resizable.d.ts"
+    "tests/**/*.tsx",
+    "dist/index.ts",
+    "dist/vue3-draggable-resizable.d.ts",
+    "vue3-draggable-resizable.d.ts"
   ],
   "exclude": [
     "node_modules"
